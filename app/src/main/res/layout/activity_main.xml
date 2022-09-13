@@ -87,4 +87,72 @@
         android:layout_marginTop="8dp"
         android:text="tryb jasny"
         ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="kod BLIK"
+        android:layout_below="@id/progresssalda"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        ></TextView>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progresssaldaujemnego"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Szybki przelew: "
+        android:layout_below="@+id/progresssalda"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text3"
+        ></TextView>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wojtek"
+        android:layout_below="@+id/progresssalda"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="15dp"
+        android:id="@+id/imie"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2313 zł"
+        android:layout_below="@+id/progresssalda"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="15dp"
+        android:id="@+id/cena"
+        ></TextView>
+    <SeekBar
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cena"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/progresssalda"
+        android:layout_marginTop="110dp"
+        ></SeekBar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ustaw przelew co miesięczny:"
+        android:layout_below="@id/cena"
+        android:layout_marginLeft="20dp"
+        ></TextView>
 </RelativeLayout>
