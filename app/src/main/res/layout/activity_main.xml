@@ -151,8 +151,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ustaw przelew co miesięczny:"
+        android:text="Ustaw przelew co miesięczny:"
         android:layout_below="@id/cena"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text5"
         ></TextView>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ustaw"
+        android:layout_below="@+id/text5"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/zaznacz"
+        ></CheckBox>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/zaznacz"
+        android:layout_below="@+id/text5"
+        android:layout_marginLeft="20dp"
+        android:inputType="date"
+        android:text="wybierz date"
+        ></EditText>
+
 </RelativeLayout>
