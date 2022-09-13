@@ -3,9 +3,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#95D8A8">
 
-    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank OSO"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2A533E"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nameofbank"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameofbank"
+        android:layout_marginTop="10dp"
+        android:text="Twoje saldo wynosi:"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/text"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="30dp"
+        android:text="8350 zł"
+        android:textColor="#5AA851"
+        android:id="@+id/saldo"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wydatki w tym miesiącu:"
+        android:layout_toRightOf="@+id/text"
+        android:layout_below="@+id/nameofbank"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/text2"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="10dp"
+        android:text="-3509 zł"
+        android:textSize="30dp"
+        android:id="@+id/saldoujemne"
+        android:textColor="#B14A4A"
+        ></TextView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saldoujemne"
+        android:layout_marginLeft="290dp"
+        android:id="@+id/progresssaldaujemnego"
+        ></ProgressBar>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saldoujemne"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/progresssalda"
+        ></ProgressBar>
 
 
 </RelativeLayout>
