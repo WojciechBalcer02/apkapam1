@@ -165,14 +165,23 @@
         android:layout_marginLeft="20dp"
         android:id="@+id/zaznacz"
         ></CheckBox>
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/zaznacz"
         android:layout_below="@+id/text5"
         android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/zaznacz"
         android:inputType="date"
-        android:text="wybierz date"
-        ></EditText>
+        android:hint="wybierz date"></EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="270dp"
+        android:text="wyślij"
+        android:backgroundTint="#50785A"
+        ></Button>
 
 </RelativeLayout>
