@@ -73,6 +73,20 @@
         android:layout_marginLeft="60dp"
         android:id="@+id/progresssalda"
         ></ProgressBar>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/dziennoc"
+        ></Switch>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="8dp"
+        android:text="tryb jasny"
+        ></TextView>
 
 
 </RelativeLayout>
